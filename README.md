@@ -27,27 +27,46 @@ Both Coroutines and RxJava are popular options for handling asynchronous tasks i
 
 **Programming Paradigm:** 
 
+
 **RxJava** is based on reactive programming, which focuses on working with streams of data and propagating changes throughout the system. 
+
 **Coroutines,** on the other hand, are based on structured concurrency and provide a more sequential and linear programming model.
+
+
 
 **API Design:**
 
+
+
 **RxJava** uses the Observable pattern, where data is emitted and processed by a stream of operators. It provides a wide range of operators for transforming, filtering, and combining data streams. 
+
 **Coroutines,** on the other hand, provide a lightweight approach to asynchronous programming with suspending functions. You can use suspend modifier to mark functions that can be paused and resumed later.
+
+
 
 **Learning Curve:**
 
+
 **RxJava** has a steeper learning curve due to its extensive set of operators and concepts related to reactive programming. 
+
 **Coroutines**, on the other hand, are generally easier to learn and understand, especially for developers familiar with synchronous programming.
+
+
 
 **Integration with Kotlin:**
 
+
 **Coroutines** are natively supported in Kotlin since Kotlin 1.1, making it easy to adopt and integrate into Kotlin-based projects. 
+
 **RxJava** is written in Java, but it also provides Kotlin extensions to enhance the integration and usage in Kotlin code.
+
+
 
 **Library Ecosystem:**
 
+
 **RxJava** has been around for a longer time and has a mature ecosystem with many libraries and extensions built on top of it. It has a large community and extensive resources available. 
+
 **Coroutines**, while newer, is gaining popularity and has good integration with other Kotlin-based libraries and frameworks.
 
 
